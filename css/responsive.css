@@ -1,0 +1,45 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .player-turn{
+        font-size: 25px;
+    }
+    .casa{
+        width: 95px;
+        height: 95px;
+    }
+    
+    .main-game{
+        margin-bottom: 18px;
+    }
+
+    .main-footer img{
+        display: none;
+    }
+
+    .footer-link{
+        font-size: 1.125rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .player-turn{
+        font-size: 3.125rem;
+        color: #ee5253;
+    }
+    .casa{
+        width: 150px;
+        height: 150px;
+        border: 2px solid #ee5253;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}

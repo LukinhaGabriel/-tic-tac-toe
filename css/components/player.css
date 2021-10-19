@@ -1,0 +1,14 @@
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.player-turn{
+    font-size: 3.125rem;
+    color: #ee5253;
+}
+
+#replacement{
+   margin-left: 18px; 
+}
