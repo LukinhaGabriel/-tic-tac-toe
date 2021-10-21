@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/main-game.css">
     <link rel="stylesheet" href="./css/components/player.css">
     <link rel="stylesheet" href="./css/components/board.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/components/btn-reset.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -19,29 +21,33 @@
     <main class="main-game">
         <div class="player">
             <p class="player-turn">Vez do Jogador:</p>
-            <p id="replacement" class="player-turn">X</p>
+            <p id="replacement" class="player-turn"></p>
         </div> 
-        <div class="board">
+        <div class="board" onclick="BoardClick(event)">
             <div class="row">
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
+                <div id="a1" class="square" jogada=""></div>
+                <div id="a2" class="square" jogada=""></div>
+                <div id="a3" class="square" jogada=""></div>
             </div>
             <div class="row">
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
+                <div id="b1" class="square" jogada=""></div>
+                <div id="b2" class="square" jogada=""></div>
+                <div id="b3" class="square" jogada=""></div>
             </div>
             <div class="row">
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
+                <div id="c1" class="square" jogada=""></div>
+                <div id="c2" class="square" jogada=""></div>
+                <div id="c3" class="square" jogada=""></div>
             </div>
         </div>
+        <button type="button"  class="btn-reset">Resetar Jogo</input type="button">
     </main>
     <footer class="main-footer">
         <img src="./img/logo.png" alt="Lukinha Moya">
         <a href="https://lucasgabrielmoya-nu.vercel.app/" target="_blank" class="footer-link">@LukinhaGabrielMoya</a>
     </footer>
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

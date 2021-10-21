@@ -1,0 +1,10 @@
+.btn-reset{
+    font-family: inherit;
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(14, 14, 14);
+    color: #ee5253;
+}
